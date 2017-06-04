@@ -1,0 +1,3 @@
+simple todo-list usiing node.js + Express, featuring *multiple undo* feature
+
+simply `npm install` and then `node index.js` !
