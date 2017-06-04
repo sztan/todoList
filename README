@@ -1,3 +1,6 @@
-simple todo-list usiing node.js + Express, featuring *multiple undo* feature
+Intended-to-node-beginners excercise :-) using Express
 
-simply `npm install` and then `node index.js` !
+Little todo list including add / remove / edit / rearrange / undo features.
+
+Just `npm install` once in the todoList folder, then `node index.js` 
+Now you can connect to localhost:8080/todo in your browser
