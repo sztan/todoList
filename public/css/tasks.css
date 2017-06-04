@@ -1,0 +1,54 @@
+.tasks li {
+  border-top: 0px;
+  border-right : 0px;
+  border-bottom : 1px dotted orange;
+  border-left :0px;
+  padding-left:10px;
+  line-height: 25px;
+}
+.container {
+  margin-left:10%;
+}
+
+ul
+.a button {
+  float : right;
+}
+
+form {
+  min-width:120px;
+  width: 50%;
+}
+
+form:hover, input:hover {
+  cursor: pointer;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+input.todoItem, form.tasks input {
+  border:0px;
+  border-radius: 3px 3px 3px 3px;
+  background-color: rgba(220,120,160,0.4);
+  padding:5px 5px 5px 5px;
+  margin:2px 0px 2px 0px;
+}
+
+input.todoItem.edited {
+  border:1px solid gray;
+}
+
+input[type="submit"] {
+  border: 1px dotted orange;
+}
+
+input[type="submit"].todoItem  {
+  visibility:hidden;
+}
+
+.visibleSubmit {
+  visibility:visible !important;
+}
